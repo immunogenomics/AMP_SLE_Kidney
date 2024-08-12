@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "./scrublet_script.py", line 23, in <module>
-    scrub = scr.Scrublet(counts_matrix, expected_doublet_rate=projected[args.i-1])
-IndexError: index 299 is out of bounds for axis 0 with size 202

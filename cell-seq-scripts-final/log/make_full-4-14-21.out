@@ -1,8 +1,0 @@
-[1] "Dimensions of full meta and data..."
-[1] 669096      7
-[1]  36601 669096
-[1] "Have we added columns?"
-[1] 669096     34
-           used  (Mb) gc trigger    (Mb)   max used    (Mb)
-Ncells  6679274 356.8   12048600   643.5    9609486   513.3
-Vcells 12326311  94.1 7081807174 54030.0 8815670010 67258.3

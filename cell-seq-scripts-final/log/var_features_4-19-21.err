@@ -1,55 +1,0 @@
-Error in gzfile(file, "rb") : cannot open the connection
-Calls: readRDS -> gzfile
-In addition: Warning message:
-In gzfile(file, "rb") :
-  cannot open compressed file '/data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-output/full_data/data_filtered_all500nGene_1000nUMI_3pctnontargetMTwdoubletandsample.rds', probable reason 'No such file or directory'
-Execution halted
-Performing log-normalization
-0%   10   20   30   40   50   60   70   80   90   100%
-[----|----|----|----|----|----|----|----|----|----|
-**************************************************|
-Calculating gene variances
-0%   10   20   30   40   50   60   70   80   90   100%
-[----|----|----|----|----|----|----|----|----|----|
-**************************************************|
-Calculating feature variances of standardized and clipped values
-0%   10   20   30   40   50   60   70   80   90   100%
-[----|----|----|----|----|----|----|----|----|----|
-**************************************************|
-Centering and scaling data matrix
-  |                                                                              |                                                                      |   0%  |                                                                              |==============                                                        |  20%  |                                                                              |============================                                          |  40%  |                                                                              |==========================================                            |  60%  |                                                                              |========================================================              |  80%  |                                                                              |======================================================================| 100%
-PC_ 1 
-Positive:  TMSB4X, HLA-B, SRGN, IFITM2, S100A6, HLA-C, LGALS1, S100A4, EMP3, ARHGDIB 
-	   BST2, IFI16, KLF2, PECAM1, HLA-DPA1, TIMP2, A2M, CD81, GIMAP4, HLA-DPB1 
-	   TMSB10, GMFG, MEF2C, FXYD5, GIMAP7, CTSS, ENG, HLA-DRB1, RNASE1, LAPTM5 
-Negative:  GATM, PDZK1IP1, ALDOB, GPX3, MIOX, NAT8, CUBN, BHMT, GLYAT, LRP2 
-	   AK4, PDZK1, UGT2B7, RIDA, ASS1, KHK, ACY1, ALDH6A1, BHMT2, AGMAT 
-	   DDC, MT1G, PEPD, GSTA1, DPYS, SLC16A9, HPD, BBOX1, ANPEP, RBP5 
-PC_ 2 
-Positive:  COTL1, SRGN, LAPTM5, GMFG, PTPRC, CORO1A, ARHGDIB, LCP1, ITGB2, HLA-DPA1 
-	   CD53, VIM, HCST, TYROBP, HLA-DPB1, FCER1G, FTL, CD48, CD37, EMP3 
-	   MAF, CD52, GIMAP4, AIF1, HCLS1, ALDOB, ZEB2, LSP1, EVI2B, LGALS2 
-Negative:  MAL, DEFB1, MUC1, EPCAM, TMEM213, CA12, GSTM3, IGFBP7, KCNJ1, HSD11B2 
-	   CKB, COBLL1, WFDC2, CLCNKB, HOXD8, PTGER3, RHOBTB3, CD9, DMKN, BCAM 
-	   SCIN, ATP6V0A4, CLCNKA, SPINT2, BEX3, CLDN7, PRDM16-DT, CYS1, ITM2C, TACSTD2 
-PC_ 3 
-Positive:  PTPRC, CORO1A, HCST, LCP1, ITGB2, CD48, CD52, CD37, TYROBP, RAC2 
-	   FCER1G, EVI2B, LAPTM5, CD53, LSP1, FYB1, GPSM3, LST1, AIF1, SPI1 
-	   C1orf162, LYZ, CYBB, MYO1F, CTSS, FCGR3A, PLEK, IKZF1, IFI30, DOK2 
-Negative:  SPARC, TIMP3, MEIS2, EPAS1, RAMP2, PTPRB, TM4SF1, CD34, A2M, ADGRL4 
-	   EMCN, SLC9A3R2, SOX18, CAVIN1, ENG, MMRN2, PODXL, EGFL7, PLPP1, LRRC32 
-	   CDH5, FLT1, HSPG2, GNG11, TEK, CALCRL, CALD1, IGFBP4, NPDC1, SLCO2A1 
-PC_ 4 
-Positive:  UMOD, KNG1, EGF, SLC12A1, DUSP9, CD3D, CD2, CD3E, TRBC2, TRAC 
-	   CD3G, DNASE1, CCL5, BCL11B, SFRP1, WNK4, GZMA, MFSD4A, GP2, LCK 
-	   TRBC1, GZMM, CST7, CLDN16, SEMA6D, IKZF3, PCED1B-AS1, CD247, PPP1R1A, PTPRB 
-Negative:  S100A11, TSPAN1, GRN, CLU, ANXA2, CTSH, KRT18, KRT19, MMP7, PIGR 
-	   CD68, CXCL16, CTSZ, CTSB, TYMP, CAPG, AIF1, LYZ, SAT1, SERPINA1 
-	   MS4A7, ELF3, CTSS, FCER1G, TMEM176B, TYROBP, SPI1, TIMP1, SPINT2, CPVL 
-PC_ 5 
-Positive:  SLC12A1, UMOD, CLDN16, CASR, NTRK2, SFRP1, CLDN10, PPP1R1A, IRX2, KNG1 
-	   CPM, PLAU, DUSP9, ACPP, PLCB1, TFAP2B, TSPAN8, CXCL12, MFSD4A, TUBB2B 
-	   LINC01320, CLDN19, SOD3, SPP1, GNAI1, ERBB4, SIM2, CYP1B1, SLC16A12, IRX1 
-Negative:  ATP6V1G3, SLC26A7, SLC4A1, LINC01187, ATP6V1C2, DMRT2, CLNK, HEPACAM2, ATP6V0D2, RHCG 
-	   SMIM6, ADGRF5, FOXI1, RHBG, PART1, FAM24B, KIT, MUC20, PDE1C, SRARP 
-	   NXPH2, CLDN8, SMIM34B, SPINK1, IL18, GATA2, SLC4A9, HMGCS2, AQP3, FXYD4 

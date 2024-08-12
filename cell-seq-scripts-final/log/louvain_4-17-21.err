@@ -1,7 +1,0 @@
-Error in eval(quote(list(...)), env) : object 'pctmt' not found
-Calls: readRDS -> paste -> standardGeneric -> eval -> eval -> eval
-Execution halted
-Warning message:
-In rm(SNNGraph) : object 'SNNGraph' not found
-Warning message:
-In rm(pca_res) : object 'pca_res' not found

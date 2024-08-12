@@ -1,7 +1,0 @@
-[1] "Removing SNNGraph"
-           used  (Mb) gc trigger  (Mb)  max used  (Mb)
-Ncells  7710826 411.9   12048595 643.5   9609617 513.3
-Vcells 86305842 658.5  123478384 942.1 102531584 782.3
-           used  (Mb) gc trigger  (Mb)  max used  (Mb)
-Ncells  7042588 376.2   12048595 643.5   9609617 513.3
-Vcells 54859395 418.6  123478384 942.1 108059803 824.5
