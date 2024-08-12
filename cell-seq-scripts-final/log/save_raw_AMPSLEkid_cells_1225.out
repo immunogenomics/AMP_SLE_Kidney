@@ -1,0 +1,98 @@
+Sender: LSF System <tnn2@sn007>
+Subject: Job 878857: <save_raw_AMPSLEkid_cells_1225> in cluster <erislsf2> Done
+
+Job <save_raw_AMPSLEkid_cells_1225> was submitted from host <eris2n4> by user <jn467> in cluster <erislsf2>.
+Job was executed on host(s) <sn007>, in queue <bigmem>, as user <jn467> in cluster <erislsf2>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final> was used as the working directory.
+Started at Wed Apr 14 11:53:22 2021
+Results reported on Wed Apr 14 11:53:47 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+
+#!/bin/bash
+#BSUB -J save_raw_AMPSLEkid_cells_1225
+#BSUB -o /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_1225.out
+#BSUB -e /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_1225.err
+#BSUB -q bigmem
+#BSUB -R 'select[hname!=cn001]'
+#BSUB -R 'select[hname!=cn002]'
+#BSUB -R 'select[hname!=cn003]'
+#BSUB -R 'select[hname!=cn004]'
+#BSUB -R 'select[hname!=cn005]'
+
+./1_save_raw.R AMPSLEkid_cells_1225
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33.87 sec.
+    Total Requested Memory :                     32000.00 MB
+    Delta Memory :                               -
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_1225.err> for stderr output of this job.
+
+Sender: LSF System <tnn2@hn002>
+Subject: Job 954910: <save_raw_AMPSLEkid_cells_1225> in cluster <erislsf2> Done
+
+Job <save_raw_AMPSLEkid_cells_1225> was submitted from host <eris2n5> by user <jn467> in cluster <erislsf2>.
+Job was executed on host(s) <hn002>, in queue <normal>, as user <jn467> in cluster <erislsf2>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final> was used as the working directory.
+Started at Mon Apr 19 10:31:58 2021
+Results reported on Mon Apr 19 10:32:20 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+
+#!/bin/bash
+#BSUB -J save_raw_AMPSLEkid_cells_1225
+#BSUB -o /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_1225.out
+#BSUB -e /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_1225.out
+#BSUB -q normal
+#BSUB -R 'select[hname!=cn001]'
+#BSUB -R 'select[hname!=cn002]'
+#BSUB -R 'select[hname!=cn003]'
+#BSUB -R 'select[hname!=cn004]'
+#BSUB -R 'select[hname!=cn005]'
+
+./0.3_save_python_data.R AMPSLEkid_cells_1225
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.10 sec.
+    Max Memory :                                 464 MB
+    Average Memory :                             464.00 MB
+    Total Requested Memory :                     512.00 MB
+    Delta Memory :                               48.00 MB
+    Max Swap :                                   10142 MB
+    Max Processes :                              4
+    Max Threads :                                5
+
+The output (if any) follows:
+
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells  6666025 356.1   12048611  643.5   9445409  504.5
+Vcells 11308992  86.3  143659268 1096.1 147936859 1128.7

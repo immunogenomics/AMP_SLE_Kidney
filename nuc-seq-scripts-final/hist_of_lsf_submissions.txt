@@ -1,0 +1,15 @@
+bsub -q big -J save_raw_nuc -o ../log/save_raw_nuc_2-24-20.out -e ../log/save_raw_nuc_2-24-20.err -R 'select[hname!=cn001]' -R 'select[hname!=cn002]' -R 'select[hname!=cn003]' -R 'select[hname!=cn004]' -R 'select[hname!=cn005]' './1_save_raw.R'
+
+bsub -q big -J save_raw_nuc -o ../log/save_raw_nuc_2-24-20.out -e ../log/save_raw_nuc_2-24-20.err -R 'select[hname!=cn001]' -R 'select[hname!=cn002]' -R 'select[hname!=cn003]' -R 'select[hname!=cn004]' -R 'select[hname!=cn005]' -N './1_save_raw.R'
+
+bsub -q big -J save_filtered_nuc -o ../log/save_filtered_nuc_2-24-20.out -e
+../log/save_filtered_nuc_2-24-20.err -R 'select[hname!=cn001]' -R
+'select[hname!=cn002]' -R 'select[hname!=cn003]' -R 'select[hname!=cn004]' -R
+'select[hname!=cn005]' -N './2_save_filtered.R' 
+
+bsub -q big -J filter_data_nuc -o ../log/filter_data_nuc_2-24-20.out -e
+../log/filter_data_nuc_2-24-20.err -R 'select[hname!=cn001]' -R
+'select[hname!=cn002]' -R 'select[hname!=cn003]' -R 'select[hname!=cn004]' -R
+'select[hname!=cn005]' -N './4_filter_data_and_save.R' 
+
+

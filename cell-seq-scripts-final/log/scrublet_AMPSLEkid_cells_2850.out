@@ -1,0 +1,55 @@
+Sender: LSF System <tnn2@hn003>
+Subject: Job 955336: <save_raw_AMPSLEkid_cells_2850> in cluster <erislsf2> Done
+
+Job <save_raw_AMPSLEkid_cells_2850> was submitted from host <eris2n5> by user <jn467> in cluster <erislsf2>.
+Job was executed on host(s) <hn003>, in queue <normal>, as user <jn467> in cluster <erislsf2>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final> was used as the working directory.
+Started at Mon Apr 19 10:56:07 2021
+Results reported on Mon Apr 19 10:57:24 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+
+#!/bin/bash
+#BSUB -J save_raw_AMPSLEkid_cells_2850
+#BSUB -o /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/scrublet_AMPSLEkid_cells_2850.out
+#BSUB -e /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/scrublet_AMPSLEkid_cells_2850.err
+#BSUB -q normal
+#BSUB -R 'select[hname!=cn001]'
+#BSUB -R 'select[hname!=cn002]'
+#BSUB -R 'select[hname!=cn003]'
+#BSUB -R 'select[hname!=cn004]'
+#BSUB -R 'select[hname!=cn005]'
+
+./scrublet_script.py AMPSLEkid_cells_2850 191
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   81.54 sec.
+    Max Memory :                                 1635 MB
+    Average Memory :                             1239.50 MB
+    Total Requested Memory :                     512.00 MB
+    Delta Memory :                               -1123.00 MB
+    Max Swap :                                   11216 MB
+    Max Processes :                              4
+    Max Threads :                                5
+
+The output (if any) follows:
+
+AMPSLEkid_cells_2850
+191
+
+
+PS:
+
+Read file </data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/scrublet_AMPSLEkid_cells_2850.err> for stderr output of this job.
+

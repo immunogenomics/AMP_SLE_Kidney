@@ -1,0 +1,108 @@
+#!/usr/bin/env Rscript
+
+source("/data/srlab1/jmears/srlab/scripts/sc_utils.R")
+source("/data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/utils/plotting.R")
+
+#-------------------------------------------------------
+
+## FILTERING PARAMETERS
+### NGENE : 500
+### MT    : NONE
+
+nGenepar <- 500
+pctmtpar <- 0.01
+nGeneupperpar <- 7500
+nUMIpar <- 1000
+nUMIupperpar <- 40000
+
+#-------------------------------------------------------
+
+pca_res <- readRDS(paste("/data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/nuc-seq-output/seurat_output/",
+                            "pca_cell_embeddings_filtered_",
+                            nGenepar,
+                            "nGene_",
+                            pctmtpar,
+                            "pctmtUMI",
+                            nGeneupperpar,
+                            "uppernGene_",
+                            nUMIpar,
+                            "nUMI_",
+                            nUMIupperpar,
+                            "uppernUMI_doubletremoval.rds",
+                            sep = ""))
+
+meta <- readRDS(paste("/data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/nuc-seq-output/full_metadata/",
+                            "meta_all_filtered_",
+                            nGenepar,
+                            "nGene_",
+                            pctmtpar,
+                            "pctmtUMI",
+                            nGeneupperpar,
+                            "uppernGene_",
+                            nUMIpar,
+                            "nUMI_",
+                            nUMIupperpar,
+                            "uppernUMI_doubletremoval.rds",
+                            sep = ""))
+
+## harmony
+harmony <- HarmonyMatrix(pca_res[,1:20], meta, vars_use = c("biopsy.ID", "processing.date", "processing.batch", "Site"), theta = c(0,0,0,0),
+                         # lambda = 1, 
+#                          tau = 0, 
+#                          epsilon.cluster = -Inf,
+#                          epsilon.harmony = -Inf,
+                         max.iter.cluster = 30,
+                         max.iter.harmony = 20,
+                         plot_convergence = T,
+                             npcs = 20,
+                            do_pca = F)
+
+
+colnames(harmony) <- c("hPC-1", "hPC-2", "hPC-3", "hPC-4",
+                      "hPC-5", "hPC-6", "hPC-7", "hPC-8",
+                      "hPC-9", "hPC-10", "hPC-11", "hPC-12",
+                      "hPC-13", "hPC-14", "hPC-15", "hPC-16",
+                      "hPC-17", "hPC-18", "hPC-19", "hPC-20")
+
+print("Checking to make sure harmony PCs and metadata are in the same order...")
+all(rownames(harmony) == meta$cells)
+
+## Add harmony PCs to meta
+meta <- cbind(meta, harmony)
+
+
+saveRDS(meta, paste("/data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/nuc-seq-output/full_metadata/",
+                            "meta_all_filtered_",
+                            nGenepar,
+                            "nGene_",
+                            pctmtpar,
+                            "pctmtUMI",
+                            nGeneupperpar,
+                            "uppernGene_",
+                            nUMIpar,
+                            "nUMI_",
+                            nUMIupperpar,
+                            "uppernUMI_doubletremoval.rds",
+                            sep = "")
+       )
+
+saveRDS(harmony, paste("/data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/nuc-seq-output/harmony_output/",
+                            "harmony_filtered_",
+                            nGenepar,
+                            "nGene_",
+                            pctmtpar,
+                            "pctmtUMI",
+                            nGeneupperpar,
+                            "uppernGene_",
+                            nUMIpar,
+                            "nUMI_",
+                            nUMIupperpar,
+                            "uppernUMI_doubletremoval.rds",
+                            sep = "")
+       )
+
+rm(pca_res)
+rm(meta)
+rm(harmony)
+
+gc()

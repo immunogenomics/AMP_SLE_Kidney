@@ -1,0 +1,8 @@
+/data/srlab/ssg34/SLE_kidney_v2/scripts/logs
+/data/srlab/ssg34/SLE_kidney_v2/scripts/de/logs
+/data/srlab/ssg34/SLE_kidney_v2/scripts/nuc-seq-scripts-final/CellBender/.git/logs
+/data/srlab/ssg34/SLE_kidney_v2/scripts/cell-seq-scripts-final/log
+/data/srlab/ssg34/SLE_kidney_v2/scripts/SLE_pbmc_preprocessing/logs
+/data/srlab/ssg34/SLE_kidney_v2/scripts/.RDataTmp
+/data/srlab/ssg34/SLE_kidney_v2/scripts/.ipynb_checkpoints/
+/data/srlab/ssg34/SLE_kidney_v2/scripts/.qc_clustering_scrnaseq.R.swp 

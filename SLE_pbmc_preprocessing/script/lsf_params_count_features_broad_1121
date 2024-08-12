@@ -1,0 +1,3 @@
+BroadRunin2    channel_1     /data/srlab/external-data/10xgenomics/refdata-gex-GRCh38-2020-A     features.csv   library_channel1.csv   cellranger-6.1.1   GRCh38
+BroadRunin2    channel_2     /data/srlab/external-data/10xgenomics/refdata-gex-GRCh38-2020-A     features.csv   library_channel2.csv   cellranger-6.1.1   GRCh38
+BroadRunin2    channel_3     /data/srlab/external-data/10xgenomics/refdata-gex-GRCh38-2020-A     features.csv   library_channel3.csv   cellranger-6.1.1   GRCh38

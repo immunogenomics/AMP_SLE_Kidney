@@ -1,0 +1,5 @@
+[1] "Checking to make sure harmony PCs and metadata are in the same order..."
+[1] TRUE
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells  6817648 364.2   12048611  643.5  12048611  643.5
+Vcells 12096631  92.3  758026634 5783.3 942683822 7192.2

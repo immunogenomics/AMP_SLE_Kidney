@@ -1,0 +1,38 @@
+Sender: LSF System <lsfadmin@eris1fs8>
+Subject: Job 22697: <./download_from_aspera.sh> Done
+
+Job <./download_from_aspera.sh> was submitted from host <cn003> by user <jn467> in cluster <cmucluster>.
+Job was executed on host(s) <eris1fs8>, in queue <filemove>, as user <jn467> in cluster <cmucluster>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/public/srcollab/AMP_Phase_2/SLE_pbmc/script> was used as the working directory.
+Started at Tue Sep 14 17:59:56 2021
+Results reported at Wed Sep 15 09:06:06 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./download_from_aspera.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  10054.41 sec.
+    Max Memory :       129 MB
+    Max Swap   :       594 MB
+
+    Max Processes  :         4
+    Max Threads    :         9
+
+The output (if any) follows:
+
+Completed: 634661743K bytes transferred in 54367 seconds
+ (95630K bits/sec), in 66 files, 17 directories.
+
+
+PS:
+
+Read file <download.err> for stderr output of this job.
+

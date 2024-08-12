@@ -1,0 +1,3 @@
+NW_10X    channel_1     /data/srlab/external-data/10xgenomics/refdata-gex-GRCh38-2020-A     features.csv   library_1.csv   cellranger-6.1.1   GRCh38
+NW_10X    channel_2     /data/srlab/external-data/10xgenomics/refdata-gex-GRCh38-2020-A     features.csv   library_2.csv   cellranger-6.1.1   GRCh38
+NW_10X    channel_3     /data/srlab/external-data/10xgenomics/refdata-gex-GRCh38-2020-A     features.csv   library_3.csv   cellranger-6.1.1   GRCh38

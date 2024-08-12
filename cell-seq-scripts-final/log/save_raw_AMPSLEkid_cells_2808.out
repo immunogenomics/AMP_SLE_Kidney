@@ -1,0 +1,103 @@
+Sender: LSF System <tnn2@sn006>
+Subject: Job 878948: <save_raw_AMPSLEkid_cells_2808> in cluster <erislsf2> Done
+
+Job <save_raw_AMPSLEkid_cells_2808> was submitted from host <eris2n4> by user <jn467> in cluster <erislsf2>.
+Job was executed on host(s) <sn006>, in queue <bigmem>, as user <jn467> in cluster <erislsf2>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final> was used as the working directory.
+Started at Wed Apr 14 12:01:22 2021
+Results reported on Wed Apr 14 12:02:07 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+
+#!/bin/bash
+#BSUB -J save_raw_AMPSLEkid_cells_2808
+#BSUB -o /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_2808.out
+#BSUB -e /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_2808.err
+#BSUB -q bigmem
+#BSUB -R 'select[hname!=cn001]'
+#BSUB -R 'select[hname!=cn002]'
+#BSUB -R 'select[hname!=cn003]'
+#BSUB -R 'select[hname!=cn004]'
+#BSUB -R 'select[hname!=cn005]'
+
+./1_save_raw.R AMPSLEkid_cells_2808
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   60.46 sec.
+    Max Memory :                                 1974 MB
+    Average Memory :                             1974.00 MB
+    Total Requested Memory :                     32000.00 MB
+    Delta Memory :                               30026.00 MB
+    Max Swap :                                   12750 MB
+    Max Processes :                              4
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_2808.err> for stderr output of this job.
+
+Sender: LSF System <tnn2@hn006>
+Subject: Job 955001: <save_raw_AMPSLEkid_cells_2808> in cluster <erislsf2> Done
+
+Job <save_raw_AMPSLEkid_cells_2808> was submitted from host <eris2n5> by user <jn467> in cluster <erislsf2>.
+Job was executed on host(s) <hn006>, in queue <normal>, as user <jn467> in cluster <erislsf2>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final> was used as the working directory.
+Started at Mon Apr 19 10:35:47 2021
+Results reported on Mon Apr 19 10:37:11 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+
+#!/bin/bash
+#BSUB -J save_raw_AMPSLEkid_cells_2808
+#BSUB -o /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_2808.out
+#BSUB -e /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/save_raw_AMPSLEkid_cells_2808.out
+#BSUB -q normal
+#BSUB -R 'select[hname!=cn001]'
+#BSUB -R 'select[hname!=cn002]'
+#BSUB -R 'select[hname!=cn003]'
+#BSUB -R 'select[hname!=cn004]'
+#BSUB -R 'select[hname!=cn005]'
+
+./0.3_save_python_data.R AMPSLEkid_cells_2808
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36.77 sec.
+    Max Memory :                                 4835 MB
+    Average Memory :                             2660.50 MB
+    Total Requested Memory :                     512.00 MB
+    Delta Memory :                               -4323.00 MB
+    Max Swap :                                   14614 MB
+    Max Processes :                              4
+    Max Threads :                                6
+
+The output (if any) follows:
+
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells  6666025 356.1   12048572  643.5   9445404  504.5
+Vcells 11308992  86.3  526484181 4016.8 546712810 4171.1

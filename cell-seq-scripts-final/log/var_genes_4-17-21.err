@@ -1,0 +1,53 @@
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'j' in selecting a method for function '[': error in evaluating the argument 'table' in selecting a method for function '%in%': object 'meta' not found
+Calls: [ ... %in% -> .handleSimpleError -> h -> .handleSimpleError -> h
+Execution halted
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |==============                                                        |  20%  |                                                                              |============================                                          |  40%  |                                                                              |==========================================                            |  60%  |                                                                              |========================================================              |  80%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  GATM, PDZK1IP1, ALDOB, MIOX, GPX3, NAT8, CUBN, BHMT, GLYAT, LRP2 
+	   AK4, PDZK1, UGT2B7, RIDA, ALDH6A1, ACY1, KHK, ASS1, BHMT2, AGMAT 
+	   DDC, MT1G, GSTA1, PEPD, DPYS, SLC16A9, HPD, BBOX1, RBP5, ANPEP 
+Negative:  TMSB4X, HLA-B, SRGN, IFITM2, HLA-C, S100A6, LGALS1, S100A4, EMP3, ARHGDIB 
+	   KLF2, IFI16, BST2, PECAM1, HLA-DPA1, TIMP2, A2M, GIMAP4, HLA-DPB1, GMFG 
+	   TMSB10, FXYD5, GIMAP7, MEF2C, CD81, ENG, CTSS, RNASE1, HLA-DRB1, LAPTM5 
+PC_ 2 
+Positive:  COTL1, SRGN, LAPTM5, GMFG, PTPRC, CORO1A, VIM, FTL, ARHGDIB, LCP1 
+	   ITGB2, HLA-DPA1, CD53, HCST, MAF, TYROBP, HLA-DPB1, ALDOB, FCER1G, LGALS2 
+	   CD48, CD37, EMP3, CD52, GATM, GIMAP4, IL32, AIF1, HCLS1, MIOX 
+Negative:  MAL, DEFB1, MUC1, EPCAM, TMEM213, CA12, GSTM3, IGFBP7, KCNJ1, HSD11B2 
+	   CKB, COBLL1, CLCNKB, WFDC2, PTGER3, HOXD8, CD9, RHOBTB3, DMKN, BCAM 
+	   SCIN, ATP6V0A4, CLCNKA, BEX3, SPINT2, PRDM16-DT, CLDN7, CYS1, KNG1, TACSTD2 
+PC_ 3 
+Positive:  TIMP3, SPARC, MEIS2, EPAS1, RAMP2, PTPRB, TM4SF1, CD34, A2M, ADGRL4 
+	   EMCN, SLC9A3R2, SOX18, CAVIN1, ENG, MMRN2, PODXL, EGFL7, PLPP1, LRRC32 
+	   CDH5, FLT1, HSPG2, GNG11, TEK, CALCRL, CALD1, IGFBP4, NPDC1, LIMS2 
+Negative:  PTPRC, CORO1A, HCST, LCP1, ITGB2, CD48, CD52, CD37, TYROBP, FCER1G 
+	   RAC2, LAPTM5, EVI2B, CD53, LSP1, FYB1, GPSM3, LST1, AIF1, SPI1 
+	   C1orf162, LYZ, CYBB, CTSS, FCGR3A, MYO1F, PLEK, DOK2, MS4A7, IFI30 
+PC_ 4 
+Positive:  UMOD, KNG1, EGF, SLC12A1, DUSP9, CD2, CD3D, CD3E, TRBC2, TRAC 
+	   CD3G, DNASE1, CCL5, BCL11B, WNK4, GP2, GZMA, MFSD4A, SFRP1, LCK 
+	   TRBC1, GZMM, CST7, SEMA6D, CLDN16, PPP1R1A, IKZF3, PCED1B-AS1, CD247, IL7R 
+Negative:  S100A11, TSPAN1, GRN, CLU, ANXA2, KRT18, CTSH, KRT19, MMP7, PIGR 
+	   CTSB, CD68, CTSZ, CXCL16, TYMP, CAPG, AIF1, SAT1, LYZ, SERPINA1 
+	   ELF3, TMEM176B, MS4A7, CTSS, TIMP1, FCER1G, TYROBP, SPINT2, SPI1, KRT8 
+PC_ 5 
+Positive:  SLC12A1, UMOD, CLDN16, NTRK2, CASR, SFRP1, CLDN10, PPP1R1A, IRX2, KNG1 
+	   CPM, PLAU, DUSP9, ACPP, TSPAN8, TFAP2B, PLCB1, CXCL12, SOD3, MFSD4A 
+	   TUBB2B, LINC01320, CLDN19, SPP1, GNAI1, ERBB4, CYP1B1, SIM2, IRX1, SLC16A12 
+Negative:  ATP6V1G3, SLC26A7, SLC4A1, LINC01187, ATP6V1C2, CLNK, DMRT2, HEPACAM2, ATP6V0D2, RHCG 
+	   SMIM6, ADGRF5, FOXI1, FAM24B, RHBG, PART1, KIT, MUC20, PDE1C, SRARP 
+	   NXPH2, SMIM34B, CLDN8, SPINK1, IL18, SLC4A9, GATA2, HMGCS2, AQP3, CDA 

@@ -1,0 +1,8 @@
+/PHShome/jn467/.lsbatch/1618420931.879984.shell: line 3: syntax error near unexpected token `"/data/srlab1/jmears/srlab/scripts/sc_utils.R"'
+/PHShome/jn467/.lsbatch/1618420931.879984.shell: line 3: `source("/data/srlab1/jmears/srlab/scripts/sc_utils.R")'
+/PHShome/jn467/.lsbatch/1618430731.881181.shell: line 3: syntax error near unexpected token `"/data/srlab1/jmears/srlab/scripts/sc_utils.R"'
+/PHShome/jn467/.lsbatch/1618430731.881181.shell: line 3: `source("/data/srlab1/jmears/srlab/scripts/sc_utils.R")'
+./4_make_full_meta_and_data.R: line 3: syntax error near unexpected token `"/data/srlab1/jmears/srlab/scripts/sc_utils.R"'
+./4_make_full_meta_and_data.R: line 3: `source("/data/srlab1/jmears/srlab/scripts/sc_utils.R")'
+Error: Matrices must have same number of columns in rbind2(argl[[i]], r)
+Execution halted

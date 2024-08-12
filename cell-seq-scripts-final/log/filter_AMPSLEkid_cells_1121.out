@@ -1,0 +1,56 @@
+Sender: LSF System <tnn2@sn004>
+Subject: Job 879428: <save_raw_AMPSLEkid_cells_1121> in cluster <erislsf2> Done
+
+Job <save_raw_AMPSLEkid_cells_1121> was submitted from host <eris2n4> by user <jn467> in cluster <erislsf2>.
+Job was executed on host(s) <sn004>, in queue <bigmem>, as user <jn467> in cluster <erislsf2>.
+</PHShome/jn467> was used as the home directory.
+</data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final> was used as the working directory.
+Started at Wed Apr 14 12:43:27 2021
+Results reported on Wed Apr 14 12:43:48 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+
+#!/bin/bash
+#BSUB -J save_raw_AMPSLEkid_cells_1121
+#BSUB -o /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/filter_AMPSLEkid_cells_1121.out
+#BSUB -e /data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/filter_AMPSLEkid_cells_1121.err
+#BSUB -q bigmem
+#BSUB -R 'select[hname!=cn001]'
+#BSUB -R 'select[hname!=cn002]'
+#BSUB -R 'select[hname!=cn003]'
+#BSUB -R 'select[hname!=cn004]'
+#BSUB -R 'select[hname!=cn005]'
+
+./3_filter_data_and_save.R AMPSLEkid_cells_1121
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36.21 sec.
+    Max Memory :                                 198 MB
+    Average Memory :                             198.00 MB
+    Total Requested Memory :                     32000.00 MB
+    Delta Memory :                               31802.00 MB
+    Max Swap :                                   10825 MB
+    Max Processes :                              4
+    Max Threads :                                5
+
+The output (if any) follows:
+
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  6680023 356.8   12048607 643.5  9454356 505.0
+Vcells 11335100  86.5   40905578 312.1 32475721 247.8
+
+
+PS:
+
+Read file </data/srlab2/jmears/jupyter/SLE_Phase2_Kidney_Analysis/cell-seq-scripts-final/log/filter_AMPSLEkid_cells_1121.err> for stderr output of this job.
+

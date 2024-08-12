@@ -1,0 +1,38 @@
+Sender: LSF System <tnn2@sna002b>
+Subject: Job 259258: <cell_qc_demuxlet> in cluster <erislsf2> Done
+
+Job <cell_qc_demuxlet> was submitted from host <eris2n4> by user <ssg34> in cluster <erislsf2>.
+Job was executed on host(s) <sna002b>, in queue <bigmem>, as user <ssg34> in cluster <erislsf2>.
+</PHShome/ssg34> was used as the home directory.
+</data/srlab/ssg34/SLE_pbmc_analysis/script> was used as the working directory.
+Started at Thu Aug 17 15:25:21 2023
+Results reported on Thu Aug 17 17:31:34 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript cell_qc_demuxlet_filter_merge_seurat_08152023.r
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7475.95 sec.
+    Max Memory :                                 126460 MB
+    Average Memory :                             58539.11 MB
+    Total Requested Memory :                     32000.00 MB
+    Delta Memory :                               -94460.00 MB
+    Max Swap :                                   135652 MB
+    Max Processes :                              3
+    Max Threads :                                5
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <logs/cell_qc_demuxlet_filter_merge_seurat_08152023.e> for stderr output of this job.
+

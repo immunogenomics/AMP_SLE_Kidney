@@ -1,0 +1,4 @@
+Warning message:
+In rm(SNNGraph) : object 'SNNGraph' not found
+Warning message:
+In rm(pca_res) : object 'pca_res' not found
