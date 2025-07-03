@@ -236,35 +236,27 @@ MASC.me <- function(dataset, cluster, contrast, random_effects = NULL, fixed_eff
   }
 }
 
-pseudobulk <- function(individual, meta, norm) {
-    cells <- meta %>% filter(sample == individual) %>% pull(cell)
-    if (length(cells) > 2) {
-        pb <- rowMeans(norm[, cells])
-        pb <- c(pb, individual)
-        names(pb) <- c(rownames(norm), 'sample')
-        return(pb)
-    }
+pseudobulk <- function(counts, groups) {
+    colnames(counts) = groups
+    
+    # Convert group labels into a sparse indicator matrix
+    group_levels <- unique(groups)
+    group_matrix <- sparseMatrix(
+      i = match(groups, group_levels), 
+      j = seq_len(length(groups)), 
+    )
+
+    # Perform sparse matrix multiplication to sum within groups
+    pseudo_raw <- group_matrix %*% (counts %>% t)
+
+    # Assign row names to match groups
+    rownames(pseudo_raw) <- group_levels
+
+    pseudo_raw = pseudo_raw %>% t
+    
+    return(pseudo_raw)
+    
 }
-
-
-
-de <- function(feature, df) {
-    model_df <- df %>% select(feature, sample, Type, avg_count, avg_mt) %>% rename(Exp = feature)
-    if (sum(model_df$Exp > 0) > 0.10 * nrow(model_df)) { 
-        m_0 <- lm(Exp ~ log(avg_count) + avg_mt, data = model_df)
-        m_1 <- lm(Exp ~ log(avg_count) + avg_mt + Type, data = model_df)
-        ANNO <- anova(m_0, m_1)
-        LRP <- ANNO[2,6]
-        F <- ANNO[2,5]
-        Beta <- summary(m_1)$coefficients['TypeLN', 'Estimate']
-        SE <- summary(m_1)$coefficients['TypeLN', 'Std. Error']
-        res <- c(gene = feature, LRP = LRP, F = F, Beta = Beta, SE = SE)
-    }
-    else {
-        res <- c(gene = feature, LRP = NA, F = NA, Beta = NA, SE = NA)
-    }
-    return(res)
-}  
                                                                               
 
 cna_cor <- function(gene, meta, norm) {

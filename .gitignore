@@ -6,3 +6,18 @@
 /data/srlab/ssg34/SLE_kidney_v2/scripts/.RDataTmp
 /data/srlab/ssg34/SLE_kidney_v2/scripts/.ipynb_checkpoints/
 /data/srlab/ssg34/SLE_kidney_v2/scripts/.qc_clustering_scrnaseq.R.swp 
+
+__pycache__/
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+### R ###
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+
