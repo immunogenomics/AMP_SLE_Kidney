@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@cn007>
+Subject: Job 996932: <Rscript TNK_Create_Symphony_Reference.r> Done
+
+Job <Rscript TNK_Create_Symphony_Reference.r> was submitted from host <cn002> by user <ssg34> in cluster <cmucluster>.
+Job was executed on host(s) <4*cn007>, in queue <big-multi>, as user <ssg34> in cluster <cmucluster>.
+</PHShome/ssg34> was used as the home directory.
+</data/srlab/ssg34/SLE_kidney_v2/scripts/pbmc_symphony> was used as the working directory.
+Started at Thu Jul 18 23:48:19 2024
+Results reported at Fri Jul 19 00:49:18 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript TNK_Create_Symphony_Reference.r
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  82265.71 sec.
+    Max Memory :     14627 MB
+    Max Swap   :     18049 MB
+
+    Max Processes  :         3
+    Max Threads    :        29
+
+The output (if any) follows:
+
+
+scRNAseq snRNAseq 
+   35131     2379 
+[1] 37510
+weights
+0.533858984942074  7.88356452290879 
+            35131              2379 
+[1] TRUE
+[1] TRUE
+
+
+PS:
+
+Read file <TNK_create_symphony_ref.e> for stderr output of this job.
+

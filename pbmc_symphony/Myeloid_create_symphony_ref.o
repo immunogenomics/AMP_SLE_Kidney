@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@cmu114>
+Subject: Job 990940: <Rscript Myeloid_Create_Symphony_Reference.r> Done
+
+Job <Rscript Myeloid_Create_Symphony_Reference.r> was submitted from host <cn002> by user <ssg34> in cluster <cmucluster>.
+Job was executed on host(s) <4*cmu114>, in queue <big-multi>, as user <ssg34> in cluster <cmucluster>.
+</PHShome/ssg34> was used as the home directory.
+</data/srlab/ssg34/SLE_kidney_v2/scripts/pbmc_symphony> was used as the working directory.
+Started at Wed Jul 17 09:59:20 2024
+Results reported at Wed Jul 17 19:37:11 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript Myeloid_Create_Symphony_Reference.r
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   : 328651.78 sec.
+    Max Memory :     12929 MB
+    Max Swap   :     14831 MB
+
+    Max Processes  :         3
+    Max Threads    :        17
+
+The output (if any) follows:
+
+
+scRNAseq snRNAseq 
+   24084     1494 
+[1] 25578
+weights
+0.53101644245142 8.56024096385542 
+           24084             1494 
+[1] TRUE
+[1] TRUE
+
+
+PS:
+
+Read file <Myeloid_create_symphony_ref.e> for stderr output of this job.
+
