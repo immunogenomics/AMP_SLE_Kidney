@@ -1,0 +1,5 @@
+warning: the following columns of obs are non-numeric.
+['cell' 'sample' 'final_annotation' 'Responder.Status' 'Race' 'Final_ISN'
+ 'Type' 'Final_Site']
+consider casting to numeric types where appropriate, and
+consider re-coding text-valued columns with pandas.get_dummies

@@ -1,0 +1,31 @@
+/var/spool/slurmd/job1606887/slurm_script: line 12: ------------------------: command not found
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/anndata/_core/anndata.py:183: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2af259aa0540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/cna/tools/_association.py:79: UserWarning: global association p-value attained minimal possible value. Consider increasing Nnull
+  warnings.warn('global association p-value attained minimal possible value. '+\
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/cna/tools/_association.py:79: UserWarning: global association p-value attained minimal possible value. Consider increasing Nnull
+  warnings.warn('global association p-value attained minimal possible value. '+\
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/cna/tools/_association.py:61: UserWarning: data supported use of 20 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the "ks" argument.
+  warnings.warn(('data supported use of {} NAM PCs, which is the maximum considered. '+\
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/cna/tools/_association.py:79: UserWarning: global association p-value attained minimal possible value. Consider increasing Nnull
+  warnings.warn('global association p-value attained minimal possible value. '+\

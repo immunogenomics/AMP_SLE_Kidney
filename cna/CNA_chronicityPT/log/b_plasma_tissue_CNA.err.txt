@@ -1,0 +1,26 @@
+/var/spool/slurmd/job1606885/slurm_script: line 12: ------------------------: command not found
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/anndata/_core/anndata.py:183: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2b0d6c50c540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2b0d6c50c540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2b0d6c50c540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py:78: FutureWarning: The provided callable <function mean at 0x2b0d6c50c540> is currently using DataFrameGroupBy.mean. In a future version of pandas, the provided callable will be used directly. To keep current behavior pass the string "mean" instead.
+  self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+Traceback (most recent call last):
+  File "/data/srlab/ssg34/SLE_kidney_v2/sugiarto_scripts/CNA_chronicityPT/chronicityCNA.py", line 22, in <module>
+    d.obs_to_sample(["Final_Chronicity", "injured_pt_prop", "First_biop", 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/multianndata/core.py", line 78, in obs_to_sample
+    self.obs[[self.sampleid, c]].groupby(by=self.sampleid).aggregate(aggregate)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6199, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/PHShome/ns013/miniconda3/envs/CTAPs/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6251, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['Final_Site_Einstein'] not in index"
