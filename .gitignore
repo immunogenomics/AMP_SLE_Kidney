@@ -23,4 +23,20 @@ __pycache__/
 
 # Session Data files
 .RData
-.RDataTmp 
+.RDataTmp
+
+### Large data files (not for public repo) ###
+*.Rds
+*.rds
+*.rda
+*.mtx
+*.h5
+*.h5ad
+*.loom
+*.pkl
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.csv.gz
+*.tsv.gz
