@@ -1,0 +1,116 @@
+"label","tissuename","position.vs.glom","count","percent"
+"SAM","Control1","inside glomerulous",4,80
+"SAM","Control1","tubulointerstitium",1,20
+"SAM","Control3","bordering glomerulous",6,17.6470588235294
+"SAM","Control3","inside glomerulous",12,35.2941176470588
+"SAM","Control3","tubulointerstitium",16,47.0588235294118
+"SAM","SLE1","bordering glomerulous",32,41.5584415584416
+"SAM","SLE1","inside glomerulous",41,53.2467532467532
+"SAM","SLE1","tubulointerstitium",4,5.19480519480519
+"SAM","SLE2","inside glomerulous",1,33.3333333333333
+"SAM","SLE2","tubulointerstitium",2,66.6666666666667
+"SAM","SLE3","bordering glomerulous",24,8.60215053763441
+"SAM","SLE3","inside glomerulous",249,89.247311827957
+"SAM","SLE3","tubulointerstitium",6,2.1505376344086
+"SAM","SLE4","bordering glomerulous",14,11.2
+"SAM","SLE4","inside glomerulous",84,67.2
+"SAM","SLE4","tubulointerstitium",27,21.6
+"SAM","SLE5","bordering glomerulous",1,10
+"SAM","SLE5","inside glomerulous",6,60
+"SAM","SLE5","tubulointerstitium",3,30
+"SAM","SLE6","bordering glomerulous",10,3.57142857142857
+"SAM","SLE6","inside glomerulous",247,88.2142857142857
+"SAM","SLE6","tubulointerstitium",23,8.21428571428571
+"SAM","SLE7","bordering glomerulous",1,5.26315789473684
+"SAM","SLE7","inside glomerulous",6,31.5789473684211
+"SAM","SLE7","tubulointerstitium",12,63.1578947368421
+"SAM","SLE8.1","bordering glomerulous",2,5.12820512820513
+"SAM","SLE8.1","inside glomerulous",26,66.6666666666667
+"SAM","SLE8.1","tubulointerstitium",11,28.2051282051282
+"SAM","SLE8.2","bordering glomerulous",12,17.3913043478261
+"SAM","SLE8.2","inside glomerulous",53,76.8115942028985
+"SAM","SLE8.2","tubulointerstitium",4,5.79710144927536
+"SAM","SLE8.3","bordering glomerulous",6,11.3207547169811
+"SAM","SLE8.3","inside glomerulous",39,73.5849056603774
+"SAM","SLE8.3","tubulointerstitium",8,15.0943396226415
+"ambiguous","Control1","bordering glomerulous",1,1.88679245283019
+"ambiguous","Control1","inside glomerulous",49,92.4528301886792
+"ambiguous","Control1","tubulointerstitium",3,5.66037735849057
+"ambiguous","Control2","bordering glomerulous",1,5.55555555555556
+"ambiguous","Control2","inside glomerulous",9,50
+"ambiguous","Control2","tubulointerstitium",8,44.4444444444444
+"ambiguous","Control3","bordering glomerulous",39,16.4556962025316
+"ambiguous","Control3","inside glomerulous",124,52.3206751054852
+"ambiguous","Control3","tubulointerstitium",74,31.2236286919831
+"ambiguous","Control4","tubulointerstitium",1,100
+"ambiguous","SLE1","bordering glomerulous",22,20.5607476635514
+"ambiguous","SLE1","inside glomerulous",64,59.8130841121495
+"ambiguous","SLE1","tubulointerstitium",21,19.6261682242991
+"ambiguous","SLE2","inside glomerulous",5,41.6666666666667
+"ambiguous","SLE2","tubulointerstitium",7,58.3333333333333
+"ambiguous","SLE3","bordering glomerulous",40,13.6054421768707
+"ambiguous","SLE3","inside glomerulous",229,77.891156462585
+"ambiguous","SLE3","tubulointerstitium",25,8.50340136054422
+"ambiguous","SLE4","bordering glomerulous",50,15.7232704402516
+"ambiguous","SLE4","inside glomerulous",152,47.7987421383648
+"ambiguous","SLE4","tubulointerstitium",116,36.4779874213836
+"ambiguous","SLE5","bordering glomerulous",8,14.0350877192982
+"ambiguous","SLE5","inside glomerulous",28,49.1228070175439
+"ambiguous","SLE5","tubulointerstitium",21,36.8421052631579
+"ambiguous","SLE6","bordering glomerulous",27,5.46558704453441
+"ambiguous","SLE6","inside glomerulous",427,86.4372469635628
+"ambiguous","SLE6","tubulointerstitium",40,8.09716599190283
+"ambiguous","SLE7","bordering glomerulous",6,9.23076923076923
+"ambiguous","SLE7","inside glomerulous",8,12.3076923076923
+"ambiguous","SLE7","tubulointerstitium",51,78.4615384615385
+"ambiguous","SLE8.1","bordering glomerulous",15,15.4639175257732
+"ambiguous","SLE8.1","inside glomerulous",66,68.0412371134021
+"ambiguous","SLE8.1","tubulointerstitium",16,16.4948453608247
+"ambiguous","SLE8.2","bordering glomerulous",17,15.4545454545455
+"ambiguous","SLE8.2","inside glomerulous",72,65.4545454545455
+"ambiguous","SLE8.2","tubulointerstitium",21,19.0909090909091
+"ambiguous","SLE8.3","bordering glomerulous",24,19.3548387096774
+"ambiguous","SLE8.3","inside glomerulous",86,69.3548387096774
+"ambiguous","SLE8.3","tubulointerstitium",14,11.2903225806452
+"nonSAMs","Control1","bordering glomerulous",139,11.8803418803419
+"nonSAMs","Control1","inside glomerulous",762,65.1282051282051
+"nonSAMs","Control1","tubulointerstitium",269,22.991452991453
+"nonSAMs","Control2","bordering glomerulous",105,8.9058524173028
+"nonSAMs","Control2","inside glomerulous",514,43.5962680237489
+"nonSAMs","Control2","tubulointerstitium",560,47.4978795589483
+"nonSAMs","Control3","bordering glomerulous",456,13.6567834681042
+"nonSAMs","Control3","inside glomerulous",1990,59.5986822401917
+"nonSAMs","Control3","tubulointerstitium",893,26.7445342917041
+"nonSAMs","Control4","bordering glomerulous",53,15.9638554216867
+"nonSAMs","Control4","inside glomerulous",94,28.3132530120482
+"nonSAMs","Control4","tubulointerstitium",185,55.7228915662651
+"nonSAMs","SLE1","bordering glomerulous",83,14.3350604490501
+"nonSAMs","SLE1","inside glomerulous",198,34.1968911917098
+"nonSAMs","SLE1","tubulointerstitium",298,51.4680483592401
+"nonSAMs","SLE2","bordering glomerulous",16,9.03954802259887
+"nonSAMs","SLE2","inside glomerulous",56,31.638418079096
+"nonSAMs","SLE2","tubulointerstitium",105,59.3220338983051
+"nonSAMs","SLE3","bordering glomerulous",182,17.0093457943925
+"nonSAMs","SLE3","inside glomerulous",424,39.6261682242991
+"nonSAMs","SLE3","tubulointerstitium",464,43.3644859813084
+"nonSAMs","SLE4","bordering glomerulous",352,17.2380019588639
+"nonSAMs","SLE4","inside glomerulous",733,35.896180215475
+"nonSAMs","SLE4","tubulointerstitium",957,46.8658178256611
+"nonSAMs","SLE5","bordering glomerulous",67,9.7953216374269
+"nonSAMs","SLE5","inside glomerulous",246,35.9649122807018
+"nonSAMs","SLE5","tubulointerstitium",371,54.2397660818713
+"nonSAMs","SLE6","bordering glomerulous",246,13.6818687430478
+"nonSAMs","SLE6","inside glomerulous",1170,65.0723025583982
+"nonSAMs","SLE6","tubulointerstitium",382,21.2458286985539
+"nonSAMs","SLE7","bordering glomerulous",33,5.12422360248447
+"nonSAMs","SLE7","inside glomerulous",56,8.69565217391304
+"nonSAMs","SLE7","tubulointerstitium",555,86.1801242236025
+"nonSAMs","SLE8.1","bordering glomerulous",86,12.7407407407407
+"nonSAMs","SLE8.1","inside glomerulous",273,40.4444444444444
+"nonSAMs","SLE8.1","tubulointerstitium",316,46.8148148148148
+"nonSAMs","SLE8.2","bordering glomerulous",146,15.5484558040469
+"nonSAMs","SLE8.2","inside glomerulous",382,40.6815761448349
+"nonSAMs","SLE8.2","tubulointerstitium",411,43.7699680511182
+"nonSAMs","SLE8.3","bordering glomerulous",245,20.7627118644068
+"nonSAMs","SLE8.3","inside glomerulous",479,40.5932203389831
+"nonSAMs","SLE8.3","tubulointerstitium",456,38.6440677966102
